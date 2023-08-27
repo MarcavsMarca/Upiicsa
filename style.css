@@ -1,0 +1,82 @@
+*{
+    /* se le agrega un margen */
+    margin: 0;
+    /* se le agrega un relleno_volumen*/
+    padding: 0;
+    /* se le agrega un */
+    box-sizing: border-box;
+    }
+    /* en este caso se modidfica la parte del h1 unifamente  designando margen relleno,etc  */
+    h1{
+    background-color: #22a6b3;
+     /* cambiar el texto centrado, izquierdo o derecho (izquierdo default)*/
+    text-align: center;
+    /* cambiar el color*/
+    color: #fafafa;
+    /* cambiar el color del boton o  o la tipografia*/
+    margin-bottom: 100px;
+    }
+    /* en este caso se modidfica la parte del h1 unifamente  designando margen relleno,etc  */
+    a{
+        background-color: #fa8231;
+        display: block;
+        /* cambiar el ancho */
+        width: 200px;
+        /* cambiar el largo */
+        padding: 10px;
+        /* cambiar la decoración */
+        text-decoration: none;
+        /* asignar un color */
+        color: white;
+        text-align: center;
+    
+        margin: 0 auto;
+        transition: all 0.5s ease-in-out;
+        border-radius: 0;
+    }
+    a:hover{
+        background-color: #eb3b5a;
+        transition: all 0.5s ease-in-out;
+        border-radius: 30px;
+    
+    }
+    form{
+        width: 30%;
+        margin: 0 auto;
+        background: #8854d0;
+        padding: 10px;
+        margin-bottom: 200px;
+    }
+    form input
+    {
+        padding: 10px;
+    }
+    label{
+        color: #fafafa;
+    }
+    .btn{
+        background-color: blue;
+        cursor: pointer
+        ;
+        color: white;
+    }
+    p{
+        width: 30%;
+        margin: 0 auto;
+        margin-bottom: 100px;
+    }
+    main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    main a{
+        background-color: #46484c;
+        color: #fff;
+    }
+    main p{
+        color:#8b8b8bcc;
+    }
+    .btn2{
+        background-color: #025157;
+    }
